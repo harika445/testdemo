@@ -1,5 +1,30 @@
 # testdemo
+<html>
+   <head>
+      <title>
+         cart quantity
+      </title>
+      </head>
+      <body>
+         <button onclick="console.log(`cart quantity : ${CartQuantity}`) "> Show Quantity</button>
+         <button  onclick ="CartQuantity = CartQuantity +1; 
+         console.log(`cart quantity : ${CartQuantity}`)">
+             Add to cart</button>
+         <button onclick ="CartQuantity = CartQuantity + 2;
+         console.log(`cart quantity : ${CartQuantity}`)"> 
+              +2</button>
+         <button onclick = "CartQuantity = CartQuantity +3; 
+         console.log(`cart quantity : ${CartQuantity}`)">
+               +3</button>
+         <button onclick = "CartQuantity = 0;
+         console.log('cart was reset.'); 
+         console.log(`cart quantity : ${CartQuantity}`)"> 
+               Reset Cart</button>
 
+         <script>
+            let CartQuantity = 0;F
+            // console.log(`${CartQuantity + 2}`);
 
-
-hi this is harrys
+         </script>
+      </body>
+</html>
